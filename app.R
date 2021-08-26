@@ -7,7 +7,6 @@ library(googleCharts)
 library(shiny)
 library(dplyr)
 #fix your directory
-setwd("C:/Users/bhato/Desktop/LEAD/dashboard/datafiles")
 data <- read.csv("cashinbox.csv")
 data$type <- as.factor(data$type)
 
